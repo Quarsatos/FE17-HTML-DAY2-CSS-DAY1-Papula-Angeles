@@ -52,3 +52,22 @@ p{
     margin: 0 auto;
     margin-bottom: 2em;
 }
+
+.cflink{
+    display: flex;
+    justify-content: center;    
+}
+.cflink >  a{
+    text-decoration: none;
+    font-size: larger;
+    background: #8C181B;
+    color: white;
+    border: 1px black solid;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.cflink > a:hover{
+    background: red;
+    transition: all 0.2s ease;
+}
