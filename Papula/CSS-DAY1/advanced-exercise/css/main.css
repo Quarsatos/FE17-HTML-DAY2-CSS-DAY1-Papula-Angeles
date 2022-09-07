@@ -1,6 +1,8 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: 1000px;
+    background-color: antiquewhite;
 }
 
 h1{
@@ -14,5 +16,14 @@ ul{
 ul > li{
     display: inline;  
     font-size: smaller;
+}
+
+img{
+    width: 1000px;
+}
+
+footer > p{
+    text-align: center;
+    font-size: small;
 }
 
