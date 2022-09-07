@@ -1,0 +1,54 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.background{
+    width: 1000px;
+}
+
+p{
+    text-align: center;
+    margin-top: -.2em;
+    font-size: small;
+}
+
+.cflogo{
+    position: absolute;
+    z-index: -1;
+    width: 1000px;
+    margin-top: -14em;
+    margin-bottom: -14em;    
+}
+
+.about > h1{
+    text-align: center;
+}
+.about >  p{
+    font-size: larger;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact > h1{
+    text-align: center;
+}
+
+.contact > input{
+    width: 400px;
+}
+.contact > label{
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.contact > textarea{
+    margin-bottom: 1em;
+}
+
+.cbutton{
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
