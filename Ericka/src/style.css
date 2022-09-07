@@ -10,6 +10,11 @@ nav a {
   text-decoration: none;
   margin: auto 20px;
 }
-.contact {
+.contact,
+.about {
   text-align: center;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
